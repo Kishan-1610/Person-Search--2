@@ -2,7 +2,7 @@
 'use client'
 
 import { addUser } from '@/app/actions/actions'
-import { userFormSchema, User, UserFormData } from '@/app/actions/schemas'  // Ensure 'User' is imported here
+import { userFormSchema, UserFormData } from '@/app/actions/schemas'  // Ensure 'User' is imported here
 import { UserForm } from './user-form'
 import MutableDialog from '@/components/mutable-dialog' // Adjusted import
 
